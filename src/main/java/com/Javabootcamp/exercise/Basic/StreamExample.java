@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamExample {
@@ -13,15 +14,22 @@ public class StreamExample {
         listAlphabet[1] = new String[]{"F","G","H","I","J"};
         listAlphabet[2] = new String[]{"K","L","M","N","O"};
 
+        int[][] listNumber = new int[3][5];
+        listNumber [0] = new int[]{0,1,2,3,4};
+        listNumber [1]  = new int[]{5,6,7,8,9};
+        listNumber [2] = new int[]{10,11,12,13,14};
 
-        int [] int1 = new int[]{1,2,3};
-        int[] int2 = new int[]{4,5,6};
-        int[] int3 = new int[]{7,8,9};
-
-        String[] arr = Arrays.stream(listAlphabet).flatMap(Arrays::stream).toArray(x -> new String[x]);
+        String[] arr = Arrays.stream(listAlphabet).flatMap(Arrays::stream).toArray(String[]::new);
         System.out.println(Arrays.stream(arr).collect(Collectors.joining(",")));
-//        String newvar = Arrays.stream(arr).collect(Collectors.joining(" "));
-//        System.out.println(newvar);
+         //Another Method
+        //        String newvar = Arrays.stream(arr).collect(Collectors.joining(" "));
+       //        System.out.println(newvar);
+
+        int[] ars = Arrays.stream(listNumber).flatMapToInt(Arrays::stream).toArray();
+//        System.out.println(Arrays.stream(ars));
+        Arrays.stream(ars).forEach(System.out::print);
+
+
     }
 }
 
