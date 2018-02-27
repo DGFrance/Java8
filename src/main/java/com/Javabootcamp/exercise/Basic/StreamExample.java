@@ -20,8 +20,8 @@ public class StreamExample {
 
         String[] arr = Arrays.stream(listAlphabet).flatMap(Arrays::stream).toArray(x -> new String[x]);
         System.out.println(Arrays.stream(arr).collect(Collectors.joining(",")));
-        String newvar = Arrays.stream(arr).collect(Collectors.joining(" "));
-        System.out.println(newvar);
+//        String newvar = Arrays.stream(arr).collect(Collectors.joining(" "));
+//        System.out.println(newvar);
     }
 }
 
