@@ -2,6 +2,7 @@ package com.Javabootcamp.exercise.Basic;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -89,3 +90,53 @@ class Stream6 {
                 .forEach(s -> System.out.println("forEach " + s));
     }
 }
+
+class Stream7 {
+    public static void main(String[] args) {
+        Stream.of("d1", "a2", "c3", "b4", "e5")
+                .filter(s -> {
+                    System.out.println("filter: " + s);
+                    return s.startsWith("a");
+                })
+                .sorted((s1, s2) -> {
+                    System.out.printf("sort: %s, %s\n", s1, s2);
+                    return s1.compareTo(s2);
+                })
+                .map(s ->{
+                    System.out.println("map: " +s);
+                   return s.toUpperCase();
+                })
+                .forEach(s -> System.out.println("forEach: " + s));
+    }
+}
+
+class Stream8 { //Advance Operation
+    String name;
+    int age;
+
+    Stream8(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+
+    public static void main(String[] args) {
+        List<Stream8> persons = Arrays.asList(
+                new Stream8("Max", 18),
+                new Stream8("Judy", 20),
+                new Stream8("Angel", 10),
+                new Stream8("Fredy", 15),
+                new Stream8("Donny", 14));
+
+        List<Stream8> Filtered = persons.stream().filter(s -> s.name.startsWith("F")).collect(Collectors.toList());
+        System.out.println(Filtered);
+    }
+}
+
+class Stream9 {
+
+        }

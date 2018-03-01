@@ -44,7 +44,7 @@ public class Player {
         this.bonusBall = score;
     }
 
-    public int getPlayerScore() {
+    public int chcekPlayerScore() {
         return playerScore;
     }
 

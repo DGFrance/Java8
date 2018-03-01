@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f1360b6-2ffc-4dad-842b-384047bb9e53" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/Class/Player.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingApp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingSystem.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/ScoreBoard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/Mapping/MapExample.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/Example1Basic.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/Class/Player.java" afterPath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/Class/Player.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingSystem.java" afterPath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingSystem.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/StreamExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/StreamExample.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +24,8 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/Class/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="680">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#443#444#0" expanded="true" />
@@ -44,24 +40,24 @@
                 <element signature="e#1019#1020#0" expanded="true" />
                 <element signature="e#1062#1063#0" expanded="true" />
                 <element signature="e#1100#1101#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-                <element signature="e#1394#1395#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1343#1344#0" expanded="true" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StreamExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/StreamExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+            <state relative-caret-position="392">
+              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding>
                 <element signature="method#main#0;class#StreamExample#0" expanded="false" />
                 <element signature="class#Stream1#0" expanded="false" />
@@ -69,16 +65,19 @@
                 <element signature="class#Stream3#0" expanded="false" />
                 <element signature="class#Stream4#0" expanded="false" />
                 <element signature="class#Stream5#0" expanded="false" />
+                <element signature="class#Stream6#0" expanded="false" />
+                <element signature="e#4205#4206#0" expanded="true" />
+                <element signature="e#4232#4233#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BowlingSystem.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BowlingSystem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="278">
+              <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +100,8 @@
       <file leaf-file-name="BowlingApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,6 +117,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bonusCounter</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -147,12 +151,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/MapExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/Class/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/Example1Basic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/Mapping/MapExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/StreamExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/Class/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingSystem.java" />
       </list>
     </option>
   </component>
@@ -228,6 +232,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="BowlingScore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="BowlingScore" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
               <item name="Basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,7 +286,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Training" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bowling-Score-Calculator-master" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,70 +300,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Stream6">
+  <component name="RunManager" selected="Application.Stream8">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Stream1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Javabootcamp.exercise.Basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Javabootcamp.exercise.Basic.Stream1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8Example" />
-      <envs />
-    </configuration>
-    <configuration name="Stream3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Javabootcamp.exercise.Basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Javabootcamp.exercise.Basic.Stream3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8Example" />
-      <envs />
-    </configuration>
-    <configuration name="Stream4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Javabootcamp.exercise.Basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Javabootcamp.exercise.Basic.Stream4" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8Example" />
-      <envs />
     </configuration>
     <configuration name="Stream5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -369,6 +335,63 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.Javabootcamp.exercise.Basic.Stream6" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java8Example" />
+      <envs />
+    </configuration>
+    <configuration name="Stream7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Javabootcamp.exercise.Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.Javabootcamp.exercise.Basic.Stream7" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java8Example" />
+      <envs />
+    </configuration>
+    <configuration name="Stream8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Javabootcamp.exercise.Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.Javabootcamp.exercise.Basic.Stream8" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java8Example" />
+      <envs />
+    </configuration>
+    <configuration name="Stream9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Javabootcamp.exercise.Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.Javabootcamp.exercise.Basic.Stream9" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -455,19 +478,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Stream3" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Stream4" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Stream5" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Stream1" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Stream6" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Stream5" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Stream6" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Stream7" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Stream8" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Stream9" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Stream6" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Stream5" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Stream1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Stream4" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Stream3" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Stream8" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Stream9" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Stream7" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Stream6" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Stream5" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519724092731</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Some changes + add &quot;V0.02&quot;">
+      <created>1519874759361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519874759362</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -508,7 +538,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2266244" sideWeight="0.50732064" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3645008" sideWeight="0.50732064" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -526,7 +556,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3645008" sideWeight="0.49267936" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1141046" sideWeight="0.49267936" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22693998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -548,11 +578,12 @@
     <MESSAGE value="&quot;changes V0.01.1&quot;" />
     <MESSAGE value="changes" />
     <MESSAGE value="changes V0.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes V0.01" />
+    <MESSAGE value="Some changes + add &quot;V0.02&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes + add &quot;V0.02&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -575,14 +606,14 @@
             <element signature="e#1019#1020#0" expanded="true" />
             <element signature="e#1062#1063#0" expanded="true" />
             <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -741,60 +772,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/Class/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/Example1Basic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -809,10 +798,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/Class/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Basic/StreamExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+        <state relative-caret-position="392">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding>
             <element signature="method#main#0;class#StreamExample#0" expanded="false" />
             <element signature="class#Stream1#0" expanded="false" />
@@ -820,6 +849,19 @@
             <element signature="class#Stream3#0" expanded="false" />
             <element signature="class#Stream4#0" expanded="false" />
             <element signature="class#Stream5#0" expanded="false" />
+            <element signature="class#Stream6#0" expanded="false" />
+            <element signature="e#4205#4206#0" expanded="true" />
+            <element signature="e#4232#4233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Javabootcamp/exercise/Advance/BowlingScore/main/BowlingSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
