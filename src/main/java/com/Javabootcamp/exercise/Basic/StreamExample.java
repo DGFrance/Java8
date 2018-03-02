@@ -1,7 +1,9 @@
 package com.Javabootcamp.exercise.Basic;
 
 import java.util.Arrays;
+import java.util.IntSummaryStatistics;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -102,9 +104,9 @@ class Stream7 {
                     System.out.printf("sort: %s, %s\n", s1, s2);
                     return s1.compareTo(s2);
                 })
-                .map(s ->{
-                    System.out.println("map: " +s);
-                   return s.toUpperCase();
+                .map(s -> {
+                    System.out.println("map: " + s);
+                    return s.toUpperCase();
                 })
                 .forEach(s -> System.out.println("forEach: " + s));
     }
@@ -114,7 +116,7 @@ class Stream8 { //Advance Operation
     String name;
     int age;
 
-    Stream8(String name, int age){
+    Stream8(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -132,11 +134,26 @@ class Stream8 { //Advance Operation
                 new Stream8("Fredy", 15),
                 new Stream8("Donny", 14));
 
-        List<Stream8> Filtered = persons.stream().filter(s -> s.name.startsWith("F")).collect(Collectors.toList());
-        System.out.println(Filtered);
+        List<Stream8> Filtered = persons.stream()
+                .filter(s -> s.name.startsWith("D")).collect(Collectors.toList());
+        System.out.println(Filtered + "\n");
+
+        Map<Integer, List<Stream8>> personByAge = persons.stream()
+                .collect(Collectors.groupingBy(s -> s.age));
+        personByAge.forEach((age, s) -> System.out.format("age %s: %s\n", age, s));
+
+        Double averageAge = persons.stream()
+                .collect(Collectors.averagingInt(p -> p.age));
+        System.out.println("\n The Average Age is:" + averageAge);
+
+        IntSummaryStatistics summaryStatistics = persons.stream()
+                .collect(Collectors.summarizingInt(p -> p.age));
+        System.out.println("\n" + summaryStatistics);
+
+        String pharse = persons.stream()
+                .filter(s -> s.age >= 18)
+                .map(s -> s.name)
+                .collect(Collectors.joining(( " In Indonesia" + " %s And %s " +"are of Legal Age.")));
+                System.out.println("\n" + pharse);
     }
 }
-
-class Stream9 {
-
-        }

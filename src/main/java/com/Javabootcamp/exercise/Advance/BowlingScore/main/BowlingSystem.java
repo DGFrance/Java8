@@ -2,7 +2,9 @@ package com.Javabootcamp.exercise.Advance.BowlingScore.main;
 
 import com.Javabootcamp.exercise.Advance.BowlingScore.Class.Player;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.List;
 
 public class BowlingSystem {
@@ -12,7 +14,6 @@ public class BowlingSystem {
         System.out.println(String.format("Welcome to BowlMania, %s!\nPlease choose one of the options below", player));
     }
 
-
     public void mainMenu() {
         System.out.println("1. Enter a player name\n2. Begin bowling\n3. Quit");
         System.out.println("Enter a number between 1-3:");
@@ -21,9 +22,16 @@ public class BowlingSystem {
     public void printPlayerInfo(List<Player> playerList) {
         System.out.println("There are " + playerList.size() + "player(s) in the game.");
         System.out.println("The Players are : ");
-        for (Player player : playerList) {
-            System.out.println(player.getPlayerName());
-        }
+
+        //Old method
+//        for (Player player : playerList) {
+//            System.out.println(player.getPlayerName());
+//        }
+
+        //new method (Java 8)
+        playerList.forEach(player -> System.out.println(player.getPlayerName()));
+
+
     }
 
     /*
@@ -129,10 +137,45 @@ public class BowlingSystem {
     /*
      * Gets the bowling score from the player
      */
+    public int getScore(int totalScore) throws IOException{
+        boolean validScore = false;
+        int tempScore = 0;
+        while (validScore == false) {
+            String temp = new BufferedReader(new InputStreamReader(System.in)).readLine();
+            while (temp.equals("")) {
+                System.out.println("Please enter a number.");
+                temp = new BufferedReader(new InputStreamReader(System.in)).readLine();
+            }
+            tempScore = Integer.parseInt(temp);
+            if ((tempScore < 0) | (tempScore + totalScore > 10) ){
+                System.out.println("You have entered an invalid number. Please try again.");
+            }
+            else {
+                validScore = true;
+            }
+        }
+        return tempScore;
+    } // end GetScore method
 
-
-    //Bowl Second Ball - System for when player bowled a strike on the first ball
-    private int getScore(int totalScore) throws IOException {
-        return totalScore;
-    }
+    /*
+     * Gets the bowling scores for the bonus round
+     */
+    public int getScore() throws IOException{
+        boolean validScore = false;
+        int tempScore = 0;
+        while (validScore == false) {
+            String temp = new BufferedReader(new InputStreamReader(System.in)).readLine();
+            if (temp == null){
+                System.out.println("Please enter a number.");
+            }
+            tempScore = Integer.parseInt(temp);
+            if (tempScore < 0 | tempScore > 10){
+                System.out.println("You have entered an invalid number. Please try again.");
+            }
+            else {
+                validScore = true;
+            }
+        }
+        return tempScore;
+    } // end GetScore method for bonus round
 }
